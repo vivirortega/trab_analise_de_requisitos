@@ -11,7 +11,12 @@
 
 <p>Nesse caso de uso, o sistema realiza a análise da voz do funcionário que deseja acessar o ambiente. A análise consiste em comparar a voz do funcionário com a voz cadastrada anteriormente para autenticação (UC1).</p>
 
-<h2>Cadastrar Voz (UC2)</h2>
+<h2>Caso de Uso: Autorizar Acesso (UC3)</h2>
 
 <h4>Descrição:</h4>
-<p></p>
+<p>Após a análise da voz ser realizada com sucesso (UC2), este caso de uso verifica se o funcionário possui permissão de acesso ao ambiente. Caso positivo, o acesso é autorizado e a porta é aberta.</p>
+
+<h2>Caso de Uso: Abrir Porta (UC4)</h2>
+
+<h4>Descrição:</h4>
+<p>Neste caso de uso, a porta é aberta quando o acesso do funcionário é autorizado (UC3). A abertura da porta permite que o funcionário tenha entrada no ambiente controlado.</p>
