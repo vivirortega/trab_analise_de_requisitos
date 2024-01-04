@@ -5,7 +5,7 @@
 <h4>Descrição:</h4>
 <p>Este caso de uso permite o cadastro da voz de um funcionário no sistema. O Funcionário deve fornecer uma amostra de voz que será utilizada posteriormente para a análise e autenticação de acesso.</p>
 
-<h2>Caso de Uso: Analisar Voz (UC2)<h2>
+<h2>Caso de Uso: Analisar Voz (UC2)</h2>
 
 <h4>Descrição:</h4>
 
@@ -20,3 +20,13 @@
 
 <h4>Descrição:</h4>
 <p>Neste caso de uso, a porta é aberta quando o acesso do funcionário é autorizado (UC3). A abertura da porta permite que o funcionário tenha entrada no ambiente controlado.</p>
+
+<h2>Caso de Uso: Ligar/Desligar Ar-Condicionado (UC5)</h2>
+
+<h4>Descrição:</h4>
+<p>Neste caso de uso, o ar-condicionado será ligado ou desligado quando o acesso do funcionário é autorizado (UC3).</p>
+
+<h2>Caso de Uso: Ligar/Desligar Luzes (UC6)</h2>
+
+<h4>Descrição:</h4>
+<p>Neste caso de uso, as luzes da sala serão ligados ou desligados quando o acesso do funcionário é autorizado (UC3).</p>
